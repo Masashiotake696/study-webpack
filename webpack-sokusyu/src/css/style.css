@@ -1,0 +1,17 @@
+@import 'font.css';
+
+@font-face {
+  font-family: 'Custom';
+  src: url('../font/cinecaption226.ttf') format('truetype');
+}
+
+body {
+  font-family: Custom;
+  font-size: 36px;
+  color: red;
+  background-image: url('../images/animal.jpg');
+}
+
+.sky {
+  background-color: #e0ffff;
+}

@@ -1,0 +1,16 @@
+{
+  "extends": "standard",
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "rules": {
+    "react/jsx-uses-vars": 1,
+    "react/jsx-uses-react": 1
+  },
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "import"
+  ]
+}
